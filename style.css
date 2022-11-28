@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    background: #F7D8BA
+}
+.calculator {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input, button {
+    border: none;
+    height: 50px;
+}
+input {
+    width: 330px;
+    font-size: 30px;
+    margin-bottom: -1px;
+    background-color:#ff6600;
+    color:#EEEEEE;
+}
+button {
+    margin: -1px;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #EEEEEE;
+    width: 80px;
+    color: #000000;
+}
+button:active {
+    background-color: #D3D3D3;
+    color: #EEEEEE;
+}
+.btn {
+    margin: -1px;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #EEEEEE;
+    width: 330px;
+    color: #ff6600;
+}
+.or-btn {
+    margin: -1px;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #EEEEEE;
+    width: 80px;
+    color: #ff6600;
+}
